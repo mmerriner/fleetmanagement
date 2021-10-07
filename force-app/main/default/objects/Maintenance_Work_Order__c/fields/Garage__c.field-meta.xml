@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Garage__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <inlineHelpText>Garage this work order is for.</inlineHelpText>
+    <label>Garage</label>
+    <referenceTo>Garage__c</referenceTo>
+    <relationshipLabel>Maintenance Work Orders</relationshipLabel>
+    <relationshipName>Maintenance_Work_Orders</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

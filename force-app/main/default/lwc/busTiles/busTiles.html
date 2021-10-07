@@ -1,0 +1,15 @@
+<template>
+    <div class='tileList'>
+        <lightning-button variant='Nuetral' label='Add New Bus' onclick={handleNewBusClick}></lightning-button>
+        <lightning-layout multiple-rows='true' class='slds-m-top_x-small'>        
+            <template for:each={buses} for:item='bus'>
+                <lightning-layout-item padding='around-small' size='4' key={bus.Id}>
+                    <c-bus-tile bus={bus}></c-bus-tile>
+                </lightning-layout-item> 
+            </template>
+        </lightning-layout>
+    </div>
+    <div class='detailContainer'>
+        <c-bus-detail></c-bus-detail>
+    </div>
+</template>

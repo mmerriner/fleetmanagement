@@ -1,0 +1,9 @@
+.tileList {
+    width: 60%;
+    float: left;
+}
+
+.detailContainer {
+    width: 40%;
+    float: left;
+}

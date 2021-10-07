@@ -1,0 +1,11 @@
+<template>
+    <div class='{selected}' onclick={handleBusClick}>
+        <div class='innertile'>
+            <div class='tilecontent'>                
+                <p><label>Bus: </label>{bus.Name}</p>
+                <p><label>Status: </label>{bus.Status__c}</p>                
+                <lightning-formatted-rich-text value={bus.Bus_Picture__c}></lightning-formatted-rich-text>                
+            </div>
+        </div>
+    </div>
+</template>
